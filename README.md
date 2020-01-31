@@ -5,6 +5,9 @@ __The generative model for kernels of convolutional neural networks, that acts a
 
 __Abstract:__ Bayesian inference is known to provide a general framework for incorporating prior knowledge or specific properties into machine learning models via carefully choosing a prior distribution. In this work, we propose a new type of prior distributions for convolutional neural networks, deep weight prior (DWP), that exploit generative models to encourage a specific structure of trained convolutional filters e.g., spatial correlations of weights. We define DWP in the form of an implicit distribution and propose a method for variational inference with such type of implicit priors. In experiments, we show that DWP improves the performance of Bayesian neural networks when training data are limited, and initialization of weights with samples from DWP accelerates training of conventional convolutional neural networks.
 
+## Poster
+
+[![](dwp_poster.png)](https://senya-ashukha.github.io/projects/dwp_iclr19/dwp-poster-iclr19.pdf)
 
 # Experiments
 ## Classification
