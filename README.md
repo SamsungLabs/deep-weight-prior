@@ -7,7 +7,7 @@ __Abstract:__ Bayesian inference is known to provide a general framework for inc
 
 ## Poster
 
-[![](dwp_poster.png)](https://senya-ashukha.github.io/projects/dwp_iclr19/dwp-poster-iclr19.pdf)
+[![](https://senya-ashukha.github.io/projects/dwp_iclr19/dwp_poster.png)](https://senya-ashukha.github.io/projects/dwp_iclr19/dwp-poster-iclr19.pdf)
 
 # Experiments
 ## Classification
