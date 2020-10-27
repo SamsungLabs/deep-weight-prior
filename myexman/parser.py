@@ -137,7 +137,9 @@ class ExParser(ParserWithRoot):
                  automark=(),
                  **kwargs):
 
-        root = os.path.join(os.environ['DWP_PATH'], ('exman-' + str(file)))
+        root = os.path.join(os.path.abspath(os.environ['DWP_PATH']), ('exman-' + str(file)))
+        if not os.path.exists(root):
+            os.makedirs(root)
         super().__init__(*args, root=root, zfill=zfill,
                          args_for_setting_config_path=args_for_setting_config_path,
                          config_file_parser_class=configargparse.YAMLConfigFileParser,

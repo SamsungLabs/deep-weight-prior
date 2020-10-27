@@ -13,7 +13,7 @@ import os
 import sys
 import pickle
 from sklearn.model_selection import train_test_split
-from scipy.misc import logsumexp
+from scipy.special import logsumexp
 import yaml
 import models.vae as vae_mod
 import models
